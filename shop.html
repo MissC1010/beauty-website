@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Shop</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body background="../L2T6/images/design.jpg">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Blog</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Index</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="trending.html">Trends</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="SavedItems.html">Saved Items</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://www.goodhousekeeping.com/beauty/anti-aging/a22850819/best-skincare-routine/"
+                >Skincare</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://janeiredale.com/blogs/makeup-blog"
+                >Makeup Tips</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              src="../L2T6/images/foundation.jfif"
+              width="200"
+              height="200"
+              class="card-img-top"
+              alt="foundation"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Foundation 20 rand</h5>
+              <button class="btn btn-success" data-price="20">Buy</button>
+              <button class="btn btn-primary" onclick="saveData(this)">
+                Save
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              src="../L2T6/images/concelear.jfif"
+              width="200"
+              height="200"
+              class="card-img-top"
+              alt="concealer"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Concealer 50 rand</h5>
+              <button class="btn btn-success" data-price="50">Buy</button>
+              <button class="btn btn-primary" onclick="saveData(this)">
+                Save
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              src="../L2T6/images/eyeshadow.jfif"
+              width="200"
+              height="200"
+              class="card-img-top"
+              alt="eyeshadow"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Eyeshadow 60 rand</h5>
+              <button class="btn btn-success" data-price="60">Buy</button>
+              <button class="btn btn-primary" onclick="saveData(this)">
+                Save
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              src="../L2T6/images/baking powder.jfif"
+              width="200"
+              height="200"
+              class="card-img-top"
+              alt="baking powder"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Baking powder 60 rand</h5>
+              <button class="btn btn-success" data-price="60">Buy</button>
+              <button class="btn btn-primary" onclick="saveData(this)">
+                Save
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              src="../L2T6/images/lipstick.jfif"
+              width="200"
+              height="200"
+              class="card-img-top"
+              alt="lipstick"
+            />
+            <div class="card-body">
+              <h5 class="card-title">lipstick 60 rand</h5>
+              <button class="btn btn-success" data-price="60">Buy</button>
+              <button class="btn btn-primary" onclick="saveData(this)">
+                Save
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              src="../L2T6/images/lip pencil.jfif"
+              width="200"
+              height="200"
+              class="card-img-top"
+              alt="lip pencil"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Lip pencil 60 rand</h5>
+              <button class="btn btn-success" data-price="60">Buy</button>
+              <button class="btn btn-primary" onclick="saveData(this)">
+                Save
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              src="../L2T6/images/lip gloss.jfif"
+              width="200"
+              height="200"
+              class="card-img-top"
+              alt="lip gloss"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Lip gloss 60 rand</h5>
+              <button class="btn btn-success" data-price="60">Buy</button>
+              <button class="btn btn-primary" onclick="saveData(this)">
+                Save
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              src="../L2T6/images/makeup brush.jfif"
+              width="200"
+              height="200"
+              class="card-img-top"
+              alt="makeup brush"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Makeup Brush 60 rand</h5>
+              <button class="btn btn-success" data-price="60">Buy</button>
+              <button class="btn btn-primary" onclick="saveData(this)">
+                Save
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              src="../L2T6/images/face wash.jfif"
+              width="200"
+              height="200"
+              class="card-img-top"
+              alt="face wash"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Face wash 60 rand</h5>
+              <button class="btn btn-success" data-price="60">Buy</button>
+              <button class="btn btn-primary" onclick="saveData(this)">
+                Save
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              src="../L2T6/images/face mask.jfif"
+              width="200"
+              height="200"
+              class="card-img-top"
+              alt="facemask"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Face Mask 60 rand</h5>
+              <button class="btn btn-success" data-price="60">Buy</button>
+              <button class="btn btn-primary" onclick="saveData(this)">
+                Save
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <form>
+      <div class="row mb-3">
+        <label for="firstName" class="col-sm-2 col-form-label"
+          >First Name</label
+        >
+        <div class="col-sm-10">
+          <input
+            type="firstName"
+            class="form-control"
+            id="firstName"
+            placeholder="First name"
+          />
+        </div>
+      </div>
+      <div class="row mb-3">
+        <label for="lastName" class="col-sm-2 col-form-label">Last Name</label>
+        <div class="col-sm-10">
+          <input
+            type="lastName"
+            class="form-control"
+            id="lastName"
+            placeholder="Last name"
+          />
+        </div>
+      </div>
+      <div class="row mb-3">
+        <label for="email" class="col-sm-2 col-form-label">Email</label>
+        <div class="col-sm-10">
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="Your email"
+          />
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </footer>
+</html>
+
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+  crossorigin="anonymous"
+></script>
+<script>
+  // Get the array from session storage or create a new one
+  let imageArray = JSON.parse(sessionStorage.getItem("imageArray")) || [];
+
+  // Define the saveData function
+  function saveData(button) {
+    // Get the card element for the clicked button
+    let card = button.closest(".card");
+
+    // Get the HTML content for the card
+    let html = card.outerHTML;
+
+    // Create an object with the HTML content and a like property set to false
+    let imageObject = {
+      html: html,
+      like: false,
+    };
+
+    // Add the object to the array and store it in session storage
+    imageArray.push(imageObject);
+    alert(`There is ${imageArray.length} items in the saved for later list`);
+    sessionStorage.setItem("imageArray", JSON.stringify(imageArray));
+
+    // Disable the button after saving
+    button.disabled = true;
+  }
+</script>

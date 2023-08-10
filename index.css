@@ -1,0 +1,64 @@
+nav.nav {
+  text-align: center;
+  font-size: 20px;
+  line-height: 20px;
+  font-family: "Courier New", Courier, monospace;
+  padding: 4px;
+  margin-left: 6px;
+  background-color: whitesmoke;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+/* changes heading style*/
+h1 {
+  color: black;
+  background-image: url(images/design.jpg);
+  font-family: cursive;
+
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 8px solid transparent;
+  padding: 10px;
+  border-image: url(images/gold.jfif) 50;
+}
+
+h4 {
+  color: black;
+  background-color: pink;
+  width: fit-content;
+}
+
+body {
+  background-image: url(images/design.jpg);
+}
+
+#para1 {
+  color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: rgb(253, 122, 166);
+  width: fit-content;
+}
+/* changes font and background colour*/
+#table {
+  background-color: rgb(253, 122, 166);
+  font-size: medium;
+}
+
+#bestmakeup {
+  border: black;
+  font-size: large;
+}
+
+#audrey {
+  border: 5px black;
+  background-color: rgb(176, 218, 255);
+}
+
+#quote {
+  background-color: rgb(177, 218, 254);
+}
